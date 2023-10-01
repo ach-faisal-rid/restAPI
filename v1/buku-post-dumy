@@ -1,0 +1,18 @@
+menambahkan sampul dan harga
+if (isset($_POST['judul']) && isset($_POST['penulis']) && isset($_POST['tahun'])) {
+    $judul = $_POST['judul'];
+    $penulis = $_POST['penulis'];
+    $tahun = $_POST['tahun'];
+    $sampul = isset($_POST['sampul']) ? $_POST['sampul'] : null;
+    $harga = isset($_POST['harga']) ? $_POST['harga'] : null;
+
+    // Buat kueri SQL untuk menambahkan data buku baru ke dalam database
+    $query = "INSERT INTO buku (judul, penulis, tahun, sampul, harga) VALUES ('$judul', '$penulis', '$tahun', '$sampul', '$harga')";
+
+if (isset($_POST['judul']) && isset($_POST['penulis']) && isset($_POST['tahun'])) {
+        $judul = $_POST['judul'];
+        $penulis = $_POST['penulis'];
+        $tahun = $_POST['tahun'];
+
+        // Buat kueri SQL untuk menambahkan data buku baru ke dalam database
+        $query = "INSERT INTO buku (judul, penulis, tahun) VALUES ('$judul', '$penulis', '$tahun')";

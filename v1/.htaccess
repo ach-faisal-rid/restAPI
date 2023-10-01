@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /restAPI/
+
+# Rute untuk buku-get
+RewriteRule ^buku-get/?$ v1/index.php?method=GET [NC,QSA,L]
+
+# Rute untuk buku-post
+RewriteRule ^buku-post/?$ v1/index.php?method=POST [NC,QSA,L]
+
+# Rute untuk buku-put
+RewriteRule ^buku-put/?$ v1/index.php?method=PUT [NC,QSA,L]
+
+# Rute untuk buku-delete
+RewriteRule ^buku-delete/?$ v1/index.php?method=DELETE [NC,QSA,L]
