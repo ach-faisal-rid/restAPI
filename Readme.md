@@ -9,12 +9,12 @@
   - buku-put.php
   - buku-del.php
 
-postman url kalau .htaccessnya default
-delete http://localhost:8080/restAPI/buku-del.php
-put http://localhost:8080/restAPI/buku-put.php
-post http://localhost:8080/restAPI/buku-post.php
-get http://localhost:8080/restAPI/buku-get.php?id=1 mengabil 1 id
-get http://localhost:8080/restAPI/buku-get.php ambil semua
+<ul>postman url kalau .htaccessnya default</ul>
+<li>delete http://localhost:8080/restAPI/buku-del.php</li>
+<li>put http://localhost:8080/restAPI/buku-put.php</li>
+<li>post http://localhost:8080/restAPI/buku-post.php</li>
+<li>get http://localhost:8080/restAPI/buku-get.php?id=1 mengabil 1 id</li>
+<li>get http://localhost:8080/restAPI/buku-get.php ambil semua</li>
 
 postman url kalau .htaccess sekarang
 .php nggak usah dipanggil
